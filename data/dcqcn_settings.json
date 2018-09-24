@@ -1,0 +1,23 @@
+{
+"dce_tcp_g": 1019,
+"dce_tcp_rtt": 1,
+"initial_alpha_value": 1023,
+"rate_to_set_on_first_cnp": 0,
+"rpg_min_dec_fac":50,
+"rpg_min_rate":4,
+"rpg_gd":10,
+"rate_reduce_monitor_period":4,
+"clamp_tgt_rate": 0,
+"clamp_tgt_rate_after_time_inc": 1,
+"rpg_time_reset": 900,
+"rpg_byte_reset":32767,
+"rpg_threshold":1,
+"rpg_ai_rate":5,
+"rpg_hai_rate":50,
+
+  "nic_rate":25,
+  "nic_rate_cap": 24,
+  "rtt_estimate":20,
+  "num_of_qp": 10000,
+  "pkt_size": 1
+}
