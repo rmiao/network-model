@@ -165,10 +165,10 @@ function run_model(env_param::Env_Param, dcqcn_param::DCQCN_Param, sim_len)
     # start1 = rand(N)
     fill!(MASK, false)
 
-    d = (EGRESS[:,126].==1)
-    @views start1[1:NUMFLOW][d] .= LINERATE
-    @views start1[NUMFLOW+1:2NUMFLOW][d] .= LINERATE
-    @views MASK[d] .= 1
+    # d = (EGRESS[:,126].==1)
+    # @views start1[1:NUMFLOW][d] .= LINERATE
+    # @views start1[NUMFLOW+1:2NUMFLOW][d] .= LINERATE
+    # @views MASK[d] .= 1
 
 
     lags = [t2]
